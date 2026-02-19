@@ -1,16 +1,22 @@
-# flutter_notification
+# TP Notifikasyon Flutter
 
-A new Flutter project.
+Aplikasyon senp pou montre diferan kalite notifikasyon ak Flutter.
 
-## Getting Started
+## Fonksyonalite
 
-This project is a starting point for a Flutter application.
+- Notifikasyon imedya
+- Notifikasyon pwograme (5 segonn)
+- Notifikasyon ki repete (chak èdtan)
+- Notifikasyon ak bouton aksyon (Wi/Non)
 
-A few resources to get you started if this is your first Flutter project:
+## Teknoloji itilize
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- flutter_local_notifications
+- timezone
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kòman teste
+
+```bash
+flutter pub get
+flutter run -d android
