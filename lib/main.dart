@@ -57,9 +57,8 @@ class _NotificationDemoState extends State<NotificationDemo> {
   Future<void> _immediate() => _show(1, 'Imedya', 'Notifikasyon imedya!');
 
   Future<void> _scheduled() async {
-    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Ap tann 10 segonn...')));
-    await Future.delayed(const Duration(seconds: 10));
-    if (mounted) await _show(2, 'Pwograme', 'Apre 10 segonn!');
+    await Future.delayed(const Duration(seconds: 5));
+    if (mounted) await _show(2, 'Pwograme', 'Apre 5 segonn!');
   }
   Future<void> _action() async {
     await _show(
