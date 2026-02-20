@@ -73,10 +73,10 @@ class _NotificationDemoState extends State<NotificationDemo> {
   }
 
   Future<void> _repeating() async {
-    await _show(3, 'Repete #1', 'Premye notifikasyon');
+    await _show(3, 'Repetisyon #1', 'Premye notifikasyon');
     timer?.cancel();
     timer = Timer.periodic(const Duration(minutes: 1), (t) {
-      if (mounted) _show(3, 'Repete #${t.tick + 1}', 'Chak minit');
+      if (mounted) _show(3, 'Repetisyon #${t.tick + 1}', 'Chak minit');
     });
   }
 
